@@ -1,0 +1,236 @@
+.feature {
+	&__left {
+		padding-right: 2rem;
+		padding-top: 0.5rem;
+	}
+
+	&__heading {
+		margin-bottom: 1rem;
+	}
+
+	&__icon {
+		width: 45px;
+		height: auto;
+		fill: $brand-primary;
+
+		&--routes {
+			.arrow {
+				& > * {
+					animation: flash 6s infinite;
+
+					@for $i from 1 through 7 {
+						&:nth-child(#{$i}) {
+							animation-delay: #{$i * 300}ms;
+						}
+					}
+				}
+			}
+		}
+
+		&--templates {
+			.top {
+				animation: templateMoveDownLayer 12s infinite;
+
+				@keyframes templateMoveDownLayer {
+					40% { transform: translateY(0); }
+					48% { transform: translateY(33%); }
+					52% { transform: translateY(33%); }
+					60% { transform: translateY(0); }
+				}
+			}
+
+			.middle {
+				animation: templateHideLayer 12s infinite;
+
+				@keyframes templateHideLayer {
+					0% { opacity: 1; }
+					50% { opacity: 0.15; }
+					100% { opacity: 1; }
+				}
+			}
+		}
+
+		&--assets {
+			.leaving {
+				animation: assetflyOutEntry 16s infinite;
+
+				@keyframes assetflyOutEntry {
+					40% { transform: translateX(0); opacity: 1; }
+					45% { transform: translateX(125%); opacity: 0; }
+					55% { transform: translateX(125%); opacity: 0; }
+					60% { transform: translateX(0); opacity: 1; }
+				}
+			}
+
+			.moving {
+				animation: assetMoveFurther 16s infinite;
+
+				@keyframes assetMoveFurther {
+					45% { transform: translateY(0); }
+					50% { transform: translateY(-125%); }
+					55% { transform: translateY(-125%); }
+					60% { transform: translateY(0); }
+				}
+			}
+		}
+
+		&--posttypes {
+			transform: scale(0.9);
+			transform-origin: 50% 0;
+
+			.paper {
+				animation: posttypeFlipPage 12s infinite;
+				transform-origin: 100% 50%;
+				transform: scaleX(1) translate3d(3px, 0, 0);
+
+				@keyframes posttypeFlipPage {
+					33% { transform: scaleX(1) translate3d(3px, 0, 0); }
+					50% { transform: scaleX(-1) translate3d(27px, 0, 0); }
+					66% { transform: scaleX(1) translate3d(3px, 0, 0); }
+				}
+			}
+		}
+
+		&--metaboxes {
+
+		}
+
+		&--taxonomies {
+			.bar-top {
+				animation: taxonomiesStretchTopBar 12s infinite;
+				transform-origin: 100% 100%;
+
+				@keyframes taxonomiesSketchTopBar {
+					33% { transform: scaleX(1); }
+					50% { transform: scaleX(0.85); }
+					66% { transform: scaleX(1.2); }
+				}
+			}
+
+			.bar-bottom {
+				animation: taxonomiesStretchBottomBar 12s infinite;
+				transform-origin: 100% 100%;
+
+				@keyframes taxonomiesStretchBottomBar {
+					33% { transform: scaleX(1); }
+					50% { transform: scaleX(1.2); }
+					66% { transform: scaleX(0.85); }
+				}
+			}
+		}
+
+		&--wp-cli {
+			.terminal {
+				& > * {
+					animation: wpcliTerminalTyping 9s infinite;
+
+					@keyframes wpcliTerminalTyping {
+						0% { opacity: 1; }
+						50% { opacity: 0.15; }
+						100% { opacity: 1; }
+					}
+
+					@for $i from 1 through 14 {
+						&:nth-child(#{$i}) {
+							animation-delay: #{$i * 300}ms;
+						}
+					}
+				}
+			}
+		}
+
+		&--fields {
+			.dot {
+				animation: fieldsFlashPath 9s infinite;
+
+				@keyframes fieldsFlashPath {
+					0% { opacity: 1; }
+					50% { opacity: 0.15; }
+					100% { opacity: 1; }
+				}
+
+				@for $i from 1 through 3 {
+					&:nth-child(#{$i}) {
+						animation-delay: #{$i * 500}ms;
+					}
+				}
+			}
+		}
+
+		&--sanitization {
+			.arrow {
+				animation: sanitizationFlyInOutArrow 6s infinite;
+				transform: rotate(-90deg) translate3d(0, 0, 0);
+				transform-origin: 50% 50%;
+
+				@keyframes sanitizationFlyInOutArrow {
+					40% {
+						opacity: 1;
+						transform: rotate(-90deg) translate3d(0, 0, 0);
+					}
+					50% {
+						opacity: 0;
+						transform: rotate(-90deg) translate3d(-200%, 0, 0);
+					}
+					51% {
+						opacity: 0;
+						transform: rotate(-90deg) translate3d(200%, 0, 0);
+					}
+					60% {
+						opacity: 1;
+						transform: rotate(-90deg) translate3d(0, 0, 0);
+					}
+				}
+			}
+
+			.dots {
+				& > * {
+					animation: sanitizationFlashPath 3s infinite;
+
+					@keyframes sanitizationFlashPath {
+						0% { opacity: 1; }
+						50% { opacity: 0.15; }
+						100% { opacity: 1; }
+					}
+
+					@for $i from 1 through 10 {
+						&:nth-child(#{$i}) {
+							animation-delay: #{$i * 300}ms;
+						}
+					}
+				}
+			}
+		}
+
+		&--validation {
+			.mark {
+				animation: validationPulseMark 9s infinite;
+				transform-origin: 50% 50%;
+
+				@keyframes validationPulseMark {
+					40% { transform: scale(1); }
+					50% { transform: scale(1.5); }
+					60% { transform: scale(1); }
+				}
+			}
+
+			.dots {
+				& > * {
+					animation: validationFlashDots 3s infinite;
+
+					@keyframes validationFlashDots {
+						0% { opacity: 1; }
+						50% { opacity: 0.15; }
+						100% { opacity: 1; }
+					}
+
+					@for $i from 1 through 32 {
+						&:nth-child(#{$i}) {
+							animation-delay: #{$i * 100}ms;
+						}
+					}
+				}
+			}
+		}
+	}
+}

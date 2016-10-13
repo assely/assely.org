@@ -1,0 +1,48 @@
+.post {
+	&__title {}
+
+	&__content {
+		ul {
+			padding-left: 2rem;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			margin-top: 1.33em;
+
+			a[href^="#"] {
+				$that: #{&};
+
+				position: relative;
+				color: $headings-color;
+
+				&:hover {
+					color: $headings-color;
+
+					#{$that}:before {
+						color: $gray-light;
+					}
+				}
+
+				&:before {
+					font-family: 'icomoon';
+					content: "\e001";
+					position: absolute;
+					top: 50%; left: -3.5rem;
+					transform: translateY(-50%);
+					display: block;
+					font-size: 2rem;
+					color: $gray-light;
+				}
+			}
+		}
+
+		pre,
+		p {
+			margin-bottom: 1.33em;
+		}
+
+		code {
+			font-size: $font-size-small;
+		}
+	}
+}

@@ -1,0 +1,78 @@
+.alert {
+	position: relative;
+	padding: 1.5rem 2.5rem;
+	font-size: $font-size-small;
+	border: 0;
+
+	&:before {
+		font-family: 'icomoon';
+		position: absolute;
+		top: 1rem; left: 1px;
+		transform: translateX(-50%);
+		font-size: 2.25rem;
+	}
+
+	a {
+		text-decoration: underline;
+	}
+
+	&-success {
+		&:before {
+			content: '\e064';
+			color: darken($state-success-bg, 25%);
+		}
+
+		a {
+			color: $brand-success-dark;
+
+			&:hover {
+				color: darken($brand-success-dark, 15%);
+			}
+		}
+	}
+
+	&-info {
+		&:before {
+			content: '\e000';
+			color: darken($state-info-bg, 25%);
+		}
+
+		a {
+			color: $brand-info-dark;
+
+			&:hover {
+				color: darken($brand-info-dark, 15%);
+			}
+		}
+	}
+
+	&-warning {
+		&:before {
+			content: '\e006';
+			color: darken($state-warning-bg, 25%);
+		}
+
+		a {
+			color: $brand-warning-dark;
+
+			&:hover {
+				color: darken($brand-warning-dark, 15%);
+			}
+		}
+	}
+
+	&-danger {
+		&:before {
+			content: '\e127';
+			color: darken($state-danger-bg, 25%);
+		}
+
+		a {
+			color: $brand-danger-dark;
+
+			&:hover {
+				color: darken($brand-danger-dark, 15%);
+			}
+		}
+	}
+}

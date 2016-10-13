@@ -1,0 +1,34 @@
+.docs {
+	.stage {
+		&__content {
+			& > * + * {
+				border-top: 1px solid $gray-lighter;
+			}
+		}
+	}
+
+	&__wrapper {
+		position: relative;
+	}
+
+	&__header {
+		padding: 4rem;
+	}
+
+	&__sidebar {
+		position: absolute;
+		top: 0; left: 0;
+		width: 250px;
+		height: 100%;
+		padding: 4rem;
+		border-right: 1px solid $gray-lighter;
+	}
+
+	&__post {
+		padding: 2rem 4rem 4rem calc(250px + 4rem);
+
+		@media (max-width: $screen-sm-max) {
+			padding: 2rem 4rem 4rem 4rem;
+		}
+	}
+}

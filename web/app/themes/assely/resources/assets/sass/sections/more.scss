@@ -1,0 +1,48 @@
+.more {
+    padding: 6rem 0 9rem;
+    background:
+        url(../images/bg-hexagons.png)
+        center 99%
+        no-repeat,
+        linear-gradient(to top, $gray-lighter 0%, white 100%);
+
+    @media (max-width: $screen-xs-max) {
+        padding: 1rem 0 3rem;
+    }
+
+    &__title {
+        position: relative;
+
+        span {
+            font-family: $font-family-monospace;
+            font-size: 9rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            word-spacing: -4rem;
+            line-height: 7rem;
+            position: relative;
+            bottom: -0.5rem;
+            color: transparentize($brand-primary, .25);
+
+            @media (max-width: $screen-sm-max) {
+                font-size: 7rem;
+                line-height: 6rem;
+                bottom: 0;
+                word-spacing: -1rem;
+            }
+
+            @media (max-width: $screen-xs-max) {
+                font-size: 4rem;
+                line-height: 6rem;
+                bottom: 0;
+                word-spacing: -1rem;
+            }
+        }
+    }
+
+    &__btn {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}

@@ -1,0 +1,11 @@
+.home {
+	&__content {
+		& > * {
+			margin-top: 9rem;
+
+			@media (max-width: $screen-sm-max) {
+				margin-top: 6rem;
+			}
+		}
+	}
+}

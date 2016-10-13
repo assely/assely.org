@@ -1,0 +1,18 @@
+.footer {
+	width: 100%;
+	padding: 6rem 3rem 3rem 3rem;
+	font-family: $font-family-monospace;
+	font-size: 12px;
+
+	@media (max-width: $screen-xs-max) {
+        padding: 3rem 2rem 2rem 2rem;
+    }
+
+	a {
+		color: $gray-darker;
+
+		&:hover {
+			color: $brand-primary-dark;
+		}
+	}
+}

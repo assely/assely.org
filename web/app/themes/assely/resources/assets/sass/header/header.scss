@@ -1,0 +1,21 @@
+.header {
+	width: 100%;
+	padding-top: 4rem;
+	background:
+		url(../images/bg-hexagons.png)
+		center 20%
+		no-repeat,
+		linear-gradient(to bottom, $gray-light 0%, white 100%);
+
+	&__wrapper {
+		width: 100%;
+
+		& > * + * {
+			margin-top: 9rem;
+
+			@media (max-width: $screen-sm-max) {
+		    	margin-top: 6rem;
+		    }
+		}
+	}
+}

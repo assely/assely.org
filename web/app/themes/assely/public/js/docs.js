@@ -1,0 +1,1 @@
+!function(n){n("#searchform").on("submit",function(n){n.preventDefault()})}(jQuery);

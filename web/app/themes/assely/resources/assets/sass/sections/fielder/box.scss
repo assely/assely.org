@@ -1,0 +1,76 @@
+.box {
+	$this: #{&};
+
+	border: 1px solid #ddd;
+	border-top: 6px solid #45bbe6;
+	border-bottom: 2px solid #ddd;
+	background-color: #fff;
+	border-radius: 3px;
+	transition: border-color 700ms ease;
+	font-family: sans-serif;
+	font-size: 14px;
+	box-shadow: 0 4px 12px transparentize($brand-primary-dark, .9);
+
+	&.is-invalid {
+		border-top: 6px solid #FF5252 !important;
+	}
+
+	&__header {
+		position: relative;
+		border-bottom: 1px solid #ddd;
+		padding: 9px 12px;
+		background-color: #fff;
+		font-weight: bold;
+		color: black;
+
+		.title {
+			font-size: 14px;
+		}
+	}
+
+	&__content {
+		padding: 14px;
+
+		.form-control {
+			font-size: 14px;
+			font-family: sans-serif;
+		}
+
+		label {
+			margin-bottom: 0;
+			font-weight: normal;
+		}
+
+		ul {
+			margin-bottom: 0;
+		}
+	}
+
+	&__description {
+		display: block;
+		margin-bottom: 12px;
+	}
+
+	&__buttons {
+		list-style: none;
+		position: absolute;
+		top: 9px; right: 9px;
+		margin: 0;
+		padding: 0;
+
+		& > li {
+			display: inline-block;
+			margin: 0 3px;
+			float: left;
+		}
+	}
+
+	&__footer {
+		text-align: center;
+
+		.button {
+			padding-left: 54px;
+			padding-right: 54px;
+		}
+	}
+}

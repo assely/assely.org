@@ -1,0 +1,89 @@
+.fielder {
+	position: relative;
+	overflow: hidden;
+	padding-top: 280px;
+	border-top: 1px solid $gray-lighter;
+	background: linear-gradient(
+		to bottom,
+		$gray-light 0%,
+		white 100%
+	);
+
+	&__carousel {
+		width: 100%;
+
+		&-track {
+			position: absolute;
+			top: 0; left: 0;
+			width: $container-lg * 4;
+			animation: carousel 100s infinite;
+			animation-timing-function: linear;
+			transform: translate3d(0, 0, 0);
+			margin-top: -6rem;
+
+			&:hover {
+				animation-play-state: paused;
+			}
+
+			@keyframes carousel {
+				0% {
+					transform: translate3d(0, 0, 0);
+				}
+				100% {
+					transform: translate3d(-#{$container-lg*2}, 0, 0);
+				}
+			}
+		}
+
+		&-part {
+			width: $container-lg;
+			padding: 0 $grid-gutter-width/2;
+			height: 100%;
+			float: left;
+		}
+
+		&-fields {
+			& > * + * {
+				margin-top: $grid-gutter-width;
+			}
+
+			&--group-1-1 {
+				margin-top: 32px;
+			}
+
+			&--group-1-2 {
+				margin-top: -9px;
+			}
+
+			&--group-2-1 {
+				margin-top: 6px;
+				height: 334px;
+				max-height: 334px;
+			}
+
+			&--group-2-2 {
+				margin-top: -9px;
+			}
+		}
+	}
+
+	&__header {
+		margin-bottom: 6rem;
+	}
+
+	&__content {
+
+	}
+
+	&__subtitle {
+		color: $brand-success;
+	}
+
+	&__title {
+
+	}
+
+	&__lead {
+
+	}
+}

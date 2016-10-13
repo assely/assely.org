@@ -1,0 +1,1 @@
+!function(a){var e=a("#body"),n=a("#offcanvasTrigger"),o=a("#offcanvasOverlay");n.add(o).on("click",function(a){a.preventDefault(),e.toggleClass("is-open is-close")})}(jQuery);

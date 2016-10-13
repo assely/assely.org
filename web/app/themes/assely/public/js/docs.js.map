@@ -1,0 +1,1 @@
+{"version":3,"sources":["search.form.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA","file":"docs.js","sourcesContent":[";(function ($) {\n\t$('#searchform').on('submit', function (e) {\n        e.preventDefault();\n    });\n})(jQuery);"]}

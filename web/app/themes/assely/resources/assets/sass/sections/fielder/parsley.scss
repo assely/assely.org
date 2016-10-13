@@ -1,0 +1,40 @@
+.parsley {
+	$this: #{&};
+
+	&-error {
+		$error: #{&};
+	}
+
+	&-errors-list {
+		position: relative;
+		display: none;
+		padding-left: 21px;
+		list-style: none;
+		font-size: 13px;
+		line-height: 1.25;
+
+		&.filled {
+			display: block;
+			margin: 0;
+			margin-top: 9px;
+
+			&:before {
+				content: "\e043";
+				display: inline-block;
+				font: 14px 'icomoon';
+				vertical-align: top;
+				position: absolute;
+				top: 0; left: 0;
+				color: #b4b9be;
+			}
+
+			li + li {
+				margin: 0;
+			}
+
+			li {
+				margin: 0;
+			}
+		}
+	}
+}

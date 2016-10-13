@@ -1,0 +1,59 @@
+.offcanvas {
+	width: 265px; // 250px + width of scrollbar
+	height: 100vh;
+	background: linear-gradient(
+        to right,
+        lighten($brand-primary, 6%) 0%,
+        $brand-primary 100%
+    );
+	position: fixed;
+	top: 0; left: 0;
+	z-index: 0;
+
+	&__wrapper {
+		position: relative;
+		height: 100%;
+		padding: 3rem 2rem 6rem 4rem;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+
+		& > * + * {
+			margin-top: 3rem;
+		}
+	}
+
+	&__section {
+
+	}
+
+	&__menu {
+		a {
+			color: white;
+
+			&:hover {
+				color: transparentize($brand-primary-dark, .33);
+			}
+		}
+
+		h5 {
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: bold;
+			color: transparentize($brand-primary-dark, .45);
+		}
+
+		li > ul {
+			& > li {
+				position: relative;
+				padding-left: 2.5rem;
+
+				&:before {
+					content: "—";
+					position: absolute;
+					top: 0; left: 0;
+					color: transparentize(white, .66);
+				}
+			}
+		}
+	}
+}
