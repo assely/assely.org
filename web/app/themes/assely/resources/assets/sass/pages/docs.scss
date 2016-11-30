@@ -25,6 +25,7 @@
 	}
 
 	&__post {
+		max-width: $screen-lg;
 		padding: 2rem 6rem 6rem 6rem;
 
 		@media (max-width: $screen-sm-max) {
