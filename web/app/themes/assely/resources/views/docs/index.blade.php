@@ -16,13 +16,15 @@
             </div>
         </div>
 
-        <div class="docs__post clearfix">
-            <div class="col-md-12">
+        <div class="docs__content">
+            <div class="docs__search">
                 @include('docs.search')
             </div>
 
-            <div class="col-md-12">
-                @include('docs.post')
+            <div class="docs__post clearfix">
+                <div class="col-md-12">
+                    @include('docs.post')
+                </div>
             </div>
         </div>
     </div>

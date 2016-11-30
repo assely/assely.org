@@ -1,0 +1,33 @@
+.search {
+	&__form {
+		position: relative;
+	}
+
+	&__input {
+		width: 100%;
+		border: 0;
+		border-bottom: 1px solid $gray-light;
+		padding: 4rem 3rem 4rem 7.25rem;
+		font-size: 1.25em;
+		font-weight: 200;
+		font-family: 'Fira Code';
+		border-radius: 0;
+		box-shadow: inset 0 0 0 transparent;
+
+		@media (max-width: $screen-sm-max) {
+			padding: 4rem 3rem 4rem 5.25rem;
+		}
+	}
+
+	&__icon {
+		position: absolute;
+		top: 50%; left: 3rem;
+		z-index: 1;
+		transform: translateY(-50%);
+		color: lighten($gray, 33%);
+
+		@media (max-width: $screen-sm-max) {
+			left: 2rem;
+		}
+	}
+}

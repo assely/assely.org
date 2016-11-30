@@ -1,5 +1,11 @@
-<form class="search__form" role="search" method="POST">
-	<label class="search__label">
-		<input class="search__input" type="search" placeholder="Search …" value="" name="s" title="Search for:" />
-	</label>
-</form>
+<div class="search">
+	<form class="search__form" action="/" method="GET" id="searchform" role="search">
+		<div class="form-group">
+			<div class="search__icon">
+				<i class="icon-search"></i>
+			</div>
+
+			<input type="text" class="search__input form-control" name="s" id="s" aria-describedby="search" placeholder="I'm looking for ...">
+		</div>
+	</form>
+</div>

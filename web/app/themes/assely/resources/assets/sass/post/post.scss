@@ -27,11 +27,15 @@
 					font-family: 'icomoon';
 					content: "\e001";
 					position: absolute;
-					top: 50%; left: -3.5rem;
+					top: 50%; left: -4.66rem;
 					transform: translateY(-50%);
 					display: block;
 					font-size: 2rem;
 					color: $gray-light;
+
+					@media (max-width: $screen-sm-max) {
+						left: -3.5rem;
+					}
 				}
 			}
 		}

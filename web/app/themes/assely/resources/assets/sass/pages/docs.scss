@@ -2,7 +2,7 @@
 	.stage {
 		&__content {
 			& > * + * {
-				border-top: 1px solid $gray-lighter;
+				border-top: 1px solid $gray-light;
 			}
 		}
 	}
@@ -21,14 +21,22 @@
 		width: 250px;
 		height: 100%;
 		padding: 4rem;
-		border-right: 1px solid $gray-lighter;
+		border-right: 1px solid $gray-light;
 	}
 
 	&__post {
-		padding: 2rem 4rem 4rem calc(250px + 4rem);
+		padding: 2rem 6rem 6rem 6rem;
 
 		@media (max-width: $screen-sm-max) {
-			padding: 2rem 4rem 4rem 4rem;
+			padding: 1rem 4rem 4rem 4rem;
+		}
+	}
+
+	&__content {
+		padding-left: 250px;
+
+		@media (max-width: $screen-sm-max) {
+			padding-left: 0;
 		}
 	}
 }
