@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4071b754fb5a6d5803d93b51f97d81c6",
-    "content-hash": "4dce656cf266755d2e14d531a7d5690b",
+    "hash": "aae826fa720c7c41cdda50b74efe67a0",
+    "content-hash": "5dd01a09aa06dbc626f16f56d4b142f8",
     "packages": [
         {
             "name": "assely/fielder",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/assely/fielder.git",
-                "reference": "37dd7a6992a31811cc5b4f038976c65cfd0c32b1"
+                "reference": "5409adc695f29c11c06e2a0c3b38b3128756f139"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assely/fielder/zipball/37dd7a6992a31811cc5b4f038976c65cfd0c32b1",
-                "reference": "37dd7a6992a31811cc5b4f038976c65cfd0c32b1",
+                "url": "https://api.github.com/repos/assely/fielder/zipball/5409adc695f29c11c06e2a0c3b38b3128756f139",
+                "reference": "5409adc695f29c11c06e2a0c3b38b3128756f139",
                 "shasum": ""
             },
             "suggest": {
@@ -37,13 +37,13 @@
             "license": [
                 "MIT"
             ],
-            "description": "Fielder is an collection of various custom fields that you can seamlessly use with the Assely framework. A considerable number of fields types allows for shaping your application metadata as much as you like.",
+            "description": "The Fielder is a collection of various custom fields that you can seamlessly use with the Assely framework and its singularities. A considerable number of fields types allows for shaping your application metadata as much as you like.",
             "keywords": [
                 "assely",
                 "custom fields",
                 "wordpress"
             ],
-            "time": "2016-11-22 16:54:57"
+            "time": "2016-11-29 22:55:54"
         },
         {
             "name": "assely/framework",
@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/assely/framework.git",
-                "reference": "9ac7c410d59e21bb36e319b754e3bdc58e3798f3"
+                "reference": "00388b8a936e1a1e3929a2abcc1d46d240b57cff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assely/framework/zipball/9ac7c410d59e21bb36e319b754e3bdc58e3798f3",
-                "reference": "9ac7c410d59e21bb36e319b754e3bdc58e3798f3",
+                "url": "https://api.github.com/repos/assely/framework/zipball/00388b8a936e1a1e3929a2abcc1d46d240b57cff",
+                "reference": "00388b8a936e1a1e3929a2abcc1d46d240b57cff",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
                     "email": "jedrzej.chalubek@gmail.com"
                 }
             ],
-            "description": "Assely framework brings a little joy to the WordPress development. Develop structured, easily scalable websites or web applications with expressive and elegant syntax.",
+            "description": "Assely is a PHP framework which brings a little joy to the WordPress development. Develop structured, easily scalable and complex WordPress websites and web applications with truly pleasure.",
             "homepage": "http://assely.org",
             "keywords": [
                 "assely",
@@ -108,7 +108,7 @@
                 "php",
                 "wordpress"
             ],
-            "time": "2016-11-28 19:29:37"
+            "time": "2016-11-30 21:46:40"
         },
         {
             "name": "composer/installers",
@@ -1395,16 +1395,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.1.7",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc"
+                "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
-                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
+                "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
                 "shasum": ""
             },
             "require": {
@@ -1424,7 +1424,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -1451,7 +1451,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-13 06:28:43"
+            "time": "2016-10-13 06:29:04"
         },
         {
             "name": "symfony/finder",
@@ -1698,16 +1698,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.1.7",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "2f4b6114b75c506dd1ee7eb485b35facbcb2d873"
+                "reference": "64ab6fc0b42e5386631f408e6adcaaff8eee5ba1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/2f4b6114b75c506dd1ee7eb485b35facbcb2d873",
-                "reference": "2f4b6114b75c506dd1ee7eb485b35facbcb2d873",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/64ab6fc0b42e5386631f408e6adcaaff8eee5ba1",
+                "reference": "64ab6fc0b42e5386631f408e6adcaaff8eee5ba1",
                 "shasum": ""
             },
             "require": {
@@ -1731,7 +1731,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -1758,7 +1758,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:15:08"
+            "time": "2016-11-18 21:17:59"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1811,16 +1811,16 @@
             "time": "2016-09-01 10:05:43"
         },
         {
-            "name": "wpackagist-plugin/cloudflare",
-            "version": "3.1.1",
+            "name": "wpackagist-plugin/all-in-one-seo-pack",
+            "version": "2.3.11",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cloudflare/",
-                "reference": "tags/3.1.1"
+                "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
+                "reference": "tags/2.3.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cloudflare.3.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1828,7 +1828,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cloudflare/"
+            "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
         },
         {
             "name": "wpackagist-plugin/search-by-algolia-instant-relevant-results",
@@ -1894,16 +1894,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.7.0",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed"
+                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
-                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/9b324f3a1132459a7274a0ace2e1b766ba80930f",
+                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f",
                 "shasum": ""
             },
             "require": {
@@ -1968,7 +1968,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-09-01 23:53:02"
+            "time": "2016-11-30 04:02:31"
         }
     ],
     "aliases": [],
