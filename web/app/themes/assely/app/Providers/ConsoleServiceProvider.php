@@ -12,6 +12,6 @@ class ConsoleServiceProvider extends ServiceProvider
      * @var array
      */
     protected $commands = [
-        // 'App\Console\Commands\Jazzman',
+        'App\Console\Commands\DocsClearCacheCommand',
     ];
 }

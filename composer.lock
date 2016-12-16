@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/assely/framework.git",
-                "reference": "a2b921e6f38cd4d3fef5282bb42f6000a37e290c"
+                "reference": "8ce0acd865408b179b4b00654209933b9be58011"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assely/framework/zipball/a2b921e6f38cd4d3fef5282bb42f6000a37e290c",
-                "reference": "a2b921e6f38cd4d3fef5282bb42f6000a37e290c",
+                "url": "https://api.github.com/repos/assely/framework/zipball/8ce0acd865408b179b4b00654209933b9be58011",
+                "reference": "8ce0acd865408b179b4b00654209933b9be58011",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "php",
                 "wordpress"
             ],
-            "time": "2016-12-14 17:54:23"
+            "time": "2016-12-16 19:42:53"
         },
         {
             "name": "composer/installers",
@@ -1872,15 +1872,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-migrate-db",
-            "version": "0.9",
+            "version": "0.9.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-migrate-db/",
-                "reference": "tags/0.9"
+                "reference": "tags/0.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.0.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.0.9.2.zip",
                 "reference": null,
                 "shasum": null
             },

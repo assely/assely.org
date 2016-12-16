@@ -15,7 +15,7 @@ class DocsFetcher
      *
      * @var string
      */
-    protected $cachePrefix = 'Docs\\Content';
+    const CACHE_PREFIX = 'Docs\\Content';
 
     /**
      * Construct documentation fetcher.
@@ -43,7 +43,7 @@ class DocsFetcher
      */
     public function grab(Post $doc)
     {
-        $key = "{$this->cachePrefix}/{$doc->id}";
+        $key = self::CACHE_PREFIX."/{$doc->id}";
 
         if ( ! $cached = $this->cache->get($key)) {
             $url = $doc->meta('docs_file')->get('url');
