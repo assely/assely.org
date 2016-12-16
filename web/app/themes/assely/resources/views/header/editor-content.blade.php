@@ -1,8 +1,8 @@
 use Assely\Taxonomy\Taxonomy;
 
-class Grenes extends Taxonomy
+class Genres extends Taxonomy
 {
-    public $slug = 'grenes';
+    public $slug = 'genres';
 
     /**
      * Describe taxonomy relationships.
