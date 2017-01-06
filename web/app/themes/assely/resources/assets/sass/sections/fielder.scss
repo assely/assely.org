@@ -19,7 +19,6 @@
 			animation: carousel 100s infinite;
 			animation-timing-function: linear;
 			transform: translate3d(0, 0, 0);
-			margin-top: -6rem;
 
 			&:hover {
 				animation-play-state: paused;

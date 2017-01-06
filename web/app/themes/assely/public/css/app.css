@@ -4669,8 +4669,7 @@ pre[class*="language-"] {
       -webkit-animation-timing-function: linear;
       animation-timing-function: linear;
       -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      margin-top: -6rem; }
+      transform: translate3d(0, 0, 0); }
       .fielder__carousel-track:hover {
         -webkit-animation-play-state: paused;
         animation-play-state: paused; }

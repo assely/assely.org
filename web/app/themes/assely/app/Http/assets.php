@@ -26,11 +26,6 @@ Asset::add('app-common', [
     'path' => 'js/common.js',
 ]);
 
-Asset::queue('parsleyjs', [
-    'path' => 'js/parsley.js',
-    'dependences' => ['jquery'],
-]);
-
 Asset::queue('prism', [
     'path' => 'js/prism.js',
     'dependences' => ['jquery'],

@@ -27,7 +27,6 @@ class HomeController extends Controller
         $this->docs = $docs;
         $this->sections = $sections;
 
-        $asset->get('parsleyjs')->add();
         $asset->get('prism')->add();
         $asset->get('app-home')->add();
     }

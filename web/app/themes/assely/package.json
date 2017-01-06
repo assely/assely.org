@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
-    "parsleyjs": "^2.5.1",
     "prismjs": "^1.5.1"
   }
 }
