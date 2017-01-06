@@ -34,6 +34,9 @@ class AppServiceProvider extends ServiceProvider
         // Add additional body classes.
         $this->addAdditionalBodyClasses();
 
+        // Add various plugins hooks.
+        $this->dispachPluginsHooks();
+
         // Load application components.
         $this->requireComponents();
     }
@@ -103,9 +106,19 @@ class AppServiceProvider extends ServiceProvider
     }
 
     /**
+     * Adds various plugins hooks.
+     *
+     * @return void
+     */
+    public function dispachPluginsHooks()
+    {
+        Hook::filter('the_seo_framework_custom_post_type_support', '__return_empty_array')->dispatch();
+    }
+
+    /**
      * Adds post type name to the body classes.
      *
-     * @return mixed
+     * @return void
      */
     public function addAdditionalBodyClasses()
     {

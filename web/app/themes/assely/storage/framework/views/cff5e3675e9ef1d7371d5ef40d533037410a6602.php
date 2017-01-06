@@ -9,7 +9,7 @@
 						<h1 class="framework__title heading__title">Take your WordPress development experience to the new level.</h1>
 
 						<p class="framework__lead heading__lead">
-							The Assely framework introduces some standarized and comfortable ways for creating WordPress powered applications. Develop structured, easily scalable and complex WordPress websites and web applications with truly pleasure.
+							The Assely framework introduces some standardized and comfortable ways for creating WordPress powered applications. Develop structured, easily scalable and complex WordPress websites and web applications with truly pleasure.
 						</p>
 					</div>
 				</div>
