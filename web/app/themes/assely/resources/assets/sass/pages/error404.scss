@@ -1,0 +1,37 @@
+.error404 {
+	&__content {
+		padding: 9rem 3rem;
+
+		@media (max-width: $screen-xs-max) {
+			padding-top: 3rem;
+			padding-bottom: 3rem;
+		}
+
+		& > * + * {
+			margin-top: 3rem;
+		}
+	}
+
+	&__title {
+		word-wrap: break-word;
+		display: inline-block;
+		width: 100%;
+	}
+
+	&__subtitle {
+		color: $brand-danger;
+	}
+
+	&__video {
+		padding: 3rem 0;
+
+		@media (max-width: $screen-xs-max) {
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+
+		iframe {
+			max-width: 100%;
+		}
+	}
+}

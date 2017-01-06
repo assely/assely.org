@@ -58,6 +58,12 @@ body {
 		}
 	}
 
+	&.error404 {
+		.stage {
+			padding-left: 4rem;
+		}
+	}
+
 	.stage,
 	.offcanvas,
 	.track {

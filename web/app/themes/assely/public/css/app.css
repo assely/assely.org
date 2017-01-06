@@ -4012,6 +4012,8 @@ body {
   @media (min-width: 992px) {
     body.docs .track__btn--offcanvas {
       display: none; } }
+  body.error404 .stage {
+    padding-left: 4rem; }
   body .stage,
   body .offcanvas,
   body .track {
@@ -5548,5 +5550,31 @@ pre[class*="language-"] {
   @media (max-width: 991px) {
     .docs__content {
       padding-left: 0; } }
+
+.error404__content {
+  padding: 9rem 3rem; }
+  @media (max-width: 767px) {
+    .error404__content {
+      padding-top: 3rem;
+      padding-bottom: 3rem; } }
+  .error404__content > * + * {
+    margin-top: 3rem; }
+
+.error404__title {
+  word-wrap: break-word;
+  display: inline-block;
+  width: 100%; }
+
+.error404__subtitle {
+  color: #f4645f; }
+
+.error404__video {
+  padding: 3rem 0; }
+  @media (max-width: 767px) {
+    .error404__video {
+      padding-top: 1rem;
+      padding-bottom: 1rem; } }
+  .error404__video iframe {
+    max-width: 100%; }
 
 /*# sourceMappingURL=app.css.map */
