@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0a15e943d13e527cd27d25b852a7e806",
-    "content-hash": "b8324b7a17ff6308b04278e4080e2da3",
+    "hash": "266e8340dc01737afb40642609a71943",
+    "content-hash": "baabea1d88ef558a9c97aab109b406d4",
     "packages": [
         {
             "name": "assely/fielder",
@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/assely/framework.git",
-                "reference": "b8fc84fd3b0411517b14e6b540c792aaa477ff2f"
+                "reference": "e7ea0c5073701ff1bc0c7ed8974bcff582eec250"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assely/framework/zipball/b8fc84fd3b0411517b14e6b540c792aaa477ff2f",
-                "reference": "b8fc84fd3b0411517b14e6b540c792aaa477ff2f",
+                "url": "https://api.github.com/repos/assely/framework/zipball/e7ea0c5073701ff1bc0c7ed8974bcff582eec250",
+                "reference": "e7ea0c5073701ff1bc0c7ed8974bcff582eec250",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "php",
                 "wordpress"
             ],
-            "time": "2016-12-27 20:30:22"
+            "time": "2017-01-05 22:13:21"
         },
         {
             "name": "composer/installers",
@@ -1811,16 +1811,16 @@
             "time": "2016-09-01 10:05:43"
         },
         {
-            "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.11.1",
+            "name": "wpackagist-plugin/autodescription",
+            "version": "2.7.3",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.11.1"
+                "url": "https://plugins.svn.wordpress.org/autodescription/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.11.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1828,7 +1828,27 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+            "homepage": "https://wordpress.org/plugins/autodescription/"
+        },
+        {
+            "name": "wpackagist-plugin/google-sitemap-generator",
+            "version": "4.0.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-sitemap-generator/",
+                "reference": "tags/4.0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
         },
         {
             "name": "wpackagist-plugin/search-by-algolia-instant-relevant-results",
