@@ -10,7 +10,7 @@
 					<div class="heading">
 						<h6 class="fielder__subtitle heading__subtitle">Fielder</h6>
 
-						<h1 class="fielder__title heading__title">Powerful Custom Fields.</h1>
+						<h2 class="fielder__title heading__title">Powerful Custom Fields.</h2>
 
 						<p class="fielder__lead heading__lead">
 							The Fielder is a collection of various custom fields that you can seamlessly use with the Assely framework and its singularities. Shape your data as much as you like.
