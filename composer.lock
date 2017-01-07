@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "45c2afd67f29cd460e5520b1d5c1e99a",
-    "content-hash": "2e79dbbc998edfbdd07b6ac7a5fafce7",
+    "hash": "266e8340dc01737afb40642609a71943",
+    "content-hash": "baabea1d88ef558a9c97aab109b406d4",
     "packages": [
         {
             "name": "assely/fielder",
@@ -1849,26 +1849,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
-        },
-        {
-            "name": "wpackagist-plugin/scripts-to-footerphp",
-            "version": "0.6.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/scripts-to-footerphp/",
-                "reference": "tags/0.6.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/scripts-to-footerphp.0.6.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/scripts-to-footerphp/"
         },
         {
             "name": "wpackagist-plugin/search-by-algolia-instant-relevant-results",

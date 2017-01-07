@@ -14,7 +14,7 @@ return [
      */
 
     'posttypes' => [
-        App\Posttypes\Posts::class,
+        // App\Posttypes\Posts::class,
         App\Posttypes\Pages::class,
         App\Posttypes\Docs::class,
     ],
@@ -31,8 +31,8 @@ return [
      */
 
     'taxonomies' => [
-        App\Taxonomies\Categories::class,
-        App\Taxonomies\Tags::class,
+        // App\Taxonomies\Categories::class,
+        // App\Taxonomies\Tags::class,
         App\Taxonomies\DocsSections::class,
     ],
 
