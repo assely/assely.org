@@ -13,8 +13,6 @@
 
 Asset::add('app-styles', ['path' => 'css/app.css']);
 
-Asset::load('dashicons', ['type' => 'style']);
-
 Asset::remove('algolia-autocomplete', ['type' => 'style']);
 
 Asset::add('bootstrap', [
