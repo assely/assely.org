@@ -1,14 +1,1 @@
-;(function ($) {
-	var body = $('#body');
-	var trigger = $('#offcanvasTrigger');
-	var overlay = $('#offcanvasOverlay');
-
-	trigger
-		.add(overlay)
-		.on('click', function (event) {
-	        event.preventDefault();
-
-	        body.toggleClass('is-open is-close');
-	    });
-})(jQuery);
-//# sourceMappingURL=common.js.map
+!function(a){var e=a("#body"),n=a("#offcanvasTrigger"),o=a("#offcanvasOverlay");n.add(o).on("click",function(a){a.preventDefault(),e.toggleClass("is-open is-close")})}(jQuery);

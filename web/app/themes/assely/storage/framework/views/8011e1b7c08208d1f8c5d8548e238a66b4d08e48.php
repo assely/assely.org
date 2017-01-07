@@ -6,9 +6,7 @@
 
 <?php $__env->startSection('main'); ?>
     <div class="home__content">
-    	<?php if ( ! Assely\Helpers\app('Assely\Cache\BladeDirective')->setUp('Home\Sections\Framework')) : ?>
-	    	<?php echo $__env->make('sections.framework', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-	    <?php endif; echo Assely\Helpers\app('Assely\Cache\BladeDirective')->tearDown(); ?>
+    	<?php echo $__env->make('sections.framework', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
 	    <?php echo $__env->make('sections.fielder', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     </div>
