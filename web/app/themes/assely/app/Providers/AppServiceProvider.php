@@ -103,6 +103,13 @@ class AppServiceProvider extends ServiceProvider
         // cases, we don't need this extra requests.
         Hook::action('wp_head', 'print_emoji_detection_script', ['piority' => 7])->detach();
         Hook::action('wp_print_styles', 'print_emoji_styles')->detach();
+
+        // Moves jQuery Core scripts to the footer.
+        Hook::action('wp_enqueue_scripts', function () {
+            wp_scripts()->add_data('jquery', 'group', 1);
+            wp_scripts()->add_data('jquery-core', 'group', 1);
+            wp_scripts()->add_data('jquery-migrate', 'group', 1);
+        })->dispatch();
     }
 
     /**
