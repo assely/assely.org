@@ -4541,7 +4541,7 @@ pre[class*="language-"] {
   .alert:before {
     font-family: 'icomoon';
     position: absolute;
-    top: 1rem;
+    top: 0.66rem;
     left: 1px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
