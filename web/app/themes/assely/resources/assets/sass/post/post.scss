@@ -1,4 +1,6 @@
 .post {
+	$this: #{&};
+
 	&__title {}
 
 	&__content {
@@ -47,6 +49,15 @@
 
 		code {
 			font-size: $font-size-small;
+		}
+	}
+
+	&--field-types {
+		#{$this}__content {
+			img {
+				padding: 1.33em;
+				background-color: $gray-lighter;
+			}
 		}
 	}
 }

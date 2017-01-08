@@ -1,1 +1,6 @@
-!function(n){n("#searchform").on("submit",function(n){n.preventDefault()})}(jQuery);
+;(function ($) {
+	$('#searchform').on('submit', function (e) {
+        e.preventDefault();
+    });
+})(jQuery);
+//# sourceMappingURL=docs.js.map

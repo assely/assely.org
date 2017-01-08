@@ -6,6 +6,7 @@ use Assely\Posttype\Posttype;
 use Column;
 use Hook;
 use View;
+use Post;
 
 class Docs extends Posttype
 {
@@ -24,6 +25,7 @@ class Docs extends Posttype
         $this->disableAutoParagraphs();
 
         $this->registerAlertShortcode();
+        $this->registerAttachmentShortcode();
     }
 
     /**
@@ -83,6 +85,36 @@ class Docs extends Posttype
             ]);
 
             return ob_get_clean();
+        });
+    }
+
+    /**
+     * @return mixed
+     */
+    public function registerAttachmentShortcode()
+    {
+        add_shortcode('attachment', function ($attributes, $content) {
+            $atts = shortcode_atts([
+                'slug' => null,
+                'alt' => ''
+            ], $attributes);
+
+            $attachments = Post::type('attachment')->query([
+                'name' => sanitize_title($atts['slug']),
+                'posts_per_page' => 1,
+            ]);
+            if (! $attachments->isEmpty()) {
+                $attachment_id = $attachments->first()->id;
+
+                ob_start();
+
+                echo View::make('shortcode.attachment', [
+                    'link' => wp_get_attachment_url($attachment_id),
+                    'alt' => htmlspecialchars($atts['alt'])
+                ]);
+
+                return ob_get_clean();
+            }
         });
     }
 }
