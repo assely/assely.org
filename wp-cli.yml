@@ -1,1 +1,7 @@
 path: web/wp
+
+@production:
+  ssh: admin@assely.org/srv/www/assely.org/current
+
+@development:
+  ssh: vagrant@assely.dev/srv/www/assely.org/current
