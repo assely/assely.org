@@ -13,11 +13,15 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('docs', 'DocsController@index')
-    ->queries(['post_type' => 'docs']);
+Route::get('docs', 'DocsController@index');
 
-Route::get('docs/{name}', 'DocsController@show')
-    ->queries(['post_type' => 'docs']);
+Route::get('docs/{name}', 'DocsController@show');
+
+Route::get('{pagename}', function($pagename) {
+    $page = Post::type('page')->find($pagename);
+    echo $page->template; // Returns []
+    echo $name; // Returns ''
+});
 
 Route::get('404', function () {
     return View::make('errors.404');

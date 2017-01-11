@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/assely/framework.git",
-                "reference": "d8d008391061d2c8b2a9c2e10f1a6b51ec527793"
+                "reference": "832f182ad6aed5d0df26403babbe6871a73353d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assely/framework/zipball/d8d008391061d2c8b2a9c2e10f1a6b51ec527793",
-                "reference": "d8d008391061d2c8b2a9c2e10f1a6b51ec527793",
+                "url": "https://api.github.com/repos/assely/framework/zipball/832f182ad6aed5d0df26403babbe6871a73353d0",
+                "reference": "832f182ad6aed5d0df26403babbe6871a73353d0",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "php",
                 "wordpress"
             ],
-            "time": "2017-01-06 22:24:03"
+            "time": "2017-01-11 00:01:10"
         },
         {
             "name": "composer/installers",
@@ -1821,7 +1821,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/autodescription.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1841,7 +1841,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.8.zip",
-                "reference": null,
+                "reference": "tags/4.0.8",
                 "shasum": null
             },
             "require": {
@@ -1861,7 +1861,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/search-by-algolia-instant-relevant-results.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1881,7 +1881,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/taxonomy-terms-order.1.4.9.zip",
-                "reference": null,
+                "reference": "tags/1.4.9",
                 "shasum": null
             },
             "require": {
@@ -1901,7 +1901,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.0.9.2.zip",
-                "reference": null,
+                "reference": "tags/0.9.2",
                 "shasum": null
             },
             "require": {
