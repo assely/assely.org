@@ -20,7 +20,7 @@ class HttpServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // Here is place where you can define addtional
+        // Here is place where you can define additional
         // WordPress route conditions. For example
         // a WooCommerce custom conditionals.
         $this->app['wpconditions']->add([
