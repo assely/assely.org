@@ -68,7 +68,7 @@
 							[
 								'icon' => 'laravel',
 								'title' => 'Laravel as<br>foundation',
-								'content' => 'Assely is based on Laravel core components. Solid foundation for your next WordPress website.'
+								'content' => 'Assely is based on Laravel core components. Solid foundation.'
 							]
 						]
 					], array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
