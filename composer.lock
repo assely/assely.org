@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/assely/framework.git",
-                "reference": "6bc9a274e0f357f338885b7587538c8d7cf1261c"
+                "reference": "5cb099fd5ad28490cd3e97d9704c54511c5ab25b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assely/framework/zipball/6bc9a274e0f357f338885b7587538c8d7cf1261c",
-                "reference": "6bc9a274e0f357f338885b7587538c8d7cf1261c",
+                "url": "https://api.github.com/repos/assely/framework/zipball/5cb099fd5ad28490cd3e97d9704c54511c5ab25b",
+                "reference": "5cb099fd5ad28490cd3e97d9704c54511c5ab25b",
                 "shasum": ""
             },
             "require": {
@@ -109,7 +109,7 @@
                 "php",
                 "wordpress"
             ],
-            "time": "2017-01-24 20:54:26"
+            "time": "2017-01-24 23:35:01"
         },
         {
             "name": "composer/installers",

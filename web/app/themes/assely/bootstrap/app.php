@@ -8,10 +8,4 @@ if (is_dir(__DIR__ . '/../vendor')) {
 }
 
 // Create and run Assely application.
-$app = new Assely\Foundation\Application(dirname(__DIR__));
-
-$app->run();
-
-// Return instance of created application.
-// It will be used inside functions.php file.
-return $app;
+return new Assely\Foundation\Application(dirname(__DIR__));
