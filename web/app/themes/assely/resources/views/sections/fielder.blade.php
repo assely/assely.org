@@ -33,7 +33,7 @@
 								[
 									'icon' => 'fields',
 									'title' => 'Various<br>field types',
-									'content' => 'Extensive collection of different field types. Colorpicker, datepicker, media file, repeatable etc. There is plenty to choose from.'
+									'content' => 'An extensive collection of different field types. Colorpicker, date picker, media file, repeatable etc. There is plenty to choose from.'
 								],
 								[
 									'icon' => 'validation',
@@ -43,7 +43,7 @@
 								[
 									'icon' => 'sanitization',
 									'title' => 'Fields<br>sanitization',
-									'content' => 'Easy fields values sanitization with build-in or custom callbacks. Nothing unwanted will not slip through.'
+									'content' => 'Easy fields values sanitization with built-in or custom callbacks. Nothing unwanted will slip through.'
 								]
 							]
 						])

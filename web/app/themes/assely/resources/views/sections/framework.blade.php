@@ -9,7 +9,7 @@
 						<h2 class="framework__title heading__title">Take your WordPress development experience to the new level.</h2>
 
 						<p class="framework__lead heading__lead">
-							The Assely framework introduces some standardized and comfortable ways for creating WordPress powered applications. Develop structured, easily scalable and complex WordPress websites and web applications with truly pleasure.
+							The Assely framework introduces some standardized and comfortable ways for creating WordPress powered applications. Develop structured, easily scalable and complex WordPress websites and web applications with true pleasure.
 						</p>
 					</div>
 				</div>
@@ -28,7 +28,7 @@
 							[
 								'icon' => 'routes',
 								'title' => 'Enhanced<br>routing',
-								'content' => 'Simply tell resources it have respond to. No more slugging around with bounch of files.'
+								'content' => 'Simply tell resources it has to respond. No more slugging around with a bunch of files.'
 							],
 							[
 								'icon' => 'templates',
@@ -38,7 +38,7 @@
 							[
 								'icon' => 'assets',
 								'title' => 'Assets<br>management',
-								'content' => 'Add, load and queue. In pair with Laravel Elixir you  have the real control over providing application assets.'
+								'content' => 'Add, load and queue. In pair with Laravel Elixir, you have the real control over providing application assets.'
 							],
 							[
 								'icon' => 'posttypes',
@@ -63,12 +63,12 @@
 							[
 								'icon' => 'wp-cli',
 								'title' => 'For terminal<br>lovers',
-								'content' => 'Assely comes with bunch of handy WP-CLI commands. Scaffolding, inspecting and managing. You will love it.'
+								'content' => 'Assely comes with the bunch of handy WP-CLI commands. Scaffolding, inspecting and managing. You will love it.'
 							],
 							[
 								'icon' => 'laravel',
 								'title' => 'Laravel as<br>foundation',
-								'content' => 'Assely is based on Laravel core components. Solid foundation.'
+								'content' => 'Assely is based on Laravel core components. Laravelish conveniences in your WordPress application.'
 							]
 						]
 					])
