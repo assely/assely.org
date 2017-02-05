@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/assely/framework.git",
-                "reference": "5cb099fd5ad28490cd3e97d9704c54511c5ab25b"
+                "reference": "20002edcc65467e62f5e118719350c27bb128013"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assely/framework/zipball/5cb099fd5ad28490cd3e97d9704c54511c5ab25b",
-                "reference": "5cb099fd5ad28490cd3e97d9704c54511c5ab25b",
+                "url": "https://api.github.com/repos/assely/framework/zipball/20002edcc65467e62f5e118719350c27bb128013",
+                "reference": "20002edcc65467e62f5e118719350c27bb128013",
                 "shasum": ""
             },
             "require": {
@@ -101,7 +101,7 @@
                     "email": "jedrzej.chalubek@gmail.com"
                 }
             ],
-            "description": "Assely is a PHP framework which brings a little joy to the WordPress development. Develop structured, easily scalable and complex WordPress websites and web applications with truly pleasure.",
+            "description": "Assely is a PHP framework which brings a little joy to the WordPress development. Develop structured, easily scalable and complex WordPress websites and web applications with true pleasure.",
             "homepage": "http://assely.org",
             "keywords": [
                 "assely",
@@ -109,7 +109,7 @@
                 "php",
                 "wordpress"
             ],
-            "time": "2017-01-24 23:35:01"
+            "time": "2017-02-04 23:47:26"
         },
         {
             "name": "composer/installers",
@@ -1345,16 +1345,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.1.9",
+            "version": "v3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "73f1c337907ba963af8028844fea1af98498dfff"
+                "reference": "c6661361626b3cf5cf2089df98b3b5006a197e85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/73f1c337907ba963af8028844fea1af98498dfff",
-                "reference": "73f1c337907ba963af8028844fea1af98498dfff",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/c6661361626b3cf5cf2089df98b3b5006a197e85",
+                "reference": "c6661361626b3cf5cf2089df98b3b5006a197e85",
                 "shasum": ""
             },
             "require": {
@@ -1398,7 +1398,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:31:54"
+            "time": "2017-01-28 00:04:57"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1462,7 +1462,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.1.9",
+            "version": "v3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -1511,7 +1511,7 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.1.9",
+            "version": "v3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
@@ -1564,16 +1564,16 @@
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v3.1.9",
+            "version": "v3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "d7578a0ed01e689f5b058e1ed37b9ad0718a1ef3"
+                "reference": "c830387dec1b48c100473d10a6a356c3c3ae2a13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/d7578a0ed01e689f5b058e1ed37b9ad0718a1ef3",
-                "reference": "d7578a0ed01e689f5b058e1ed37b9ad0718a1ef3",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/c830387dec1b48c100473d10a6a356c3c3ae2a13",
+                "reference": "c830387dec1b48c100473d10a6a356c3c3ae2a13",
                 "shasum": ""
             },
             "require": {
@@ -1642,7 +1642,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-12 20:43:39"
+            "time": "2017-01-28 02:53:17"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1921,16 +1921,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.7.1",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f"
+                "reference": "86dd55a522238211f9f3631e3361703578941d9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/9b324f3a1132459a7274a0ace2e1b766ba80930f",
-                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/86dd55a522238211f9f3631e3361703578941d9a",
+                "reference": "86dd55a522238211f9f3631e3361703578941d9a",
                 "shasum": ""
             },
             "require": {
@@ -1995,7 +1995,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-11-30 04:02:31"
+            "time": "2017-02-02 03:30:00"
         }
     ],
     "aliases": [],
