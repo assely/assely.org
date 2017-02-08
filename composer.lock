@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/assely/framework.git",
-                "reference": "20002edcc65467e62f5e118719350c27bb128013"
+                "reference": "6f5e97972e3dd9607bbe60bbc5d86591b59ab447"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assely/framework/zipball/20002edcc65467e62f5e118719350c27bb128013",
-                "reference": "20002edcc65467e62f5e118719350c27bb128013",
+                "url": "https://api.github.com/repos/assely/framework/zipball/6f5e97972e3dd9607bbe60bbc5d86591b59ab447",
+                "reference": "6f5e97972e3dd9607bbe60bbc5d86591b59ab447",
                 "shasum": ""
             },
             "require": {
@@ -109,7 +109,7 @@
                 "php",
                 "wordpress"
             ],
-            "time": "2017-02-04 23:47:26"
+            "time": "2017-02-08 20:57:47"
         },
         {
             "name": "composer/installers",
@@ -1402,7 +1402,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.2.2",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -1705,16 +1705,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.2.2",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "6520f3d4cce604d9dd1e86cac7af954984dd9bda"
+                "reference": "ca032cc56976d88b85e7386b17020bc6dc95dbc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/6520f3d4cce604d9dd1e86cac7af954984dd9bda",
-                "reference": "6520f3d4cce604d9dd1e86cac7af954984dd9bda",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/ca032cc56976d88b85e7386b17020bc6dc95dbc5",
+                "reference": "ca032cc56976d88b85e7386b17020bc6dc95dbc5",
                 "shasum": ""
             },
             "require": {
@@ -1765,7 +1765,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:32:22"
+            "time": "2017-01-21 17:06:35"
         },
         {
             "name": "vlucas/phpdotenv",
