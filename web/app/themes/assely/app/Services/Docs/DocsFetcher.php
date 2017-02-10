@@ -46,7 +46,7 @@ class DocsFetcher
         $key = self::CACHE_PREFIX."/{$doc->id}";
 
         if ( ! $cached = $this->cache->get($key)) {
-            $url = $doc->meta('docs_file')->get('url');
+            $url = $doc->meta('url');
 
             // Fetch content of the markdown document from the url.
             // If downloading was successful, update doc content
