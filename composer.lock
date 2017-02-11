@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "05649786b4e25fec207f145facd1fba8",
-    "content-hash": "7fa8f7708113693a5dd84d91f06d9c28",
+    "hash": "b98bf38bb001c162b1c19c34552c56f0",
+    "content-hash": "459a38685533081001cbe24ff995a60c",
     "packages": [
         {
             "name": "assely/fielder",
@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/assely/framework.git",
-                "reference": "6f5e97972e3dd9607bbe60bbc5d86591b59ab447"
+                "reference": "2055e77b6e465aba949c1e2f926b1a01344e4292"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assely/framework/zipball/6f5e97972e3dd9607bbe60bbc5d86591b59ab447",
-                "reference": "6f5e97972e3dd9607bbe60bbc5d86591b59ab447",
+                "url": "https://api.github.com/repos/assely/framework/zipball/2055e77b6e465aba949c1e2f926b1a01344e4292",
+                "reference": "2055e77b6e465aba949c1e2f926b1a01344e4292",
                 "shasum": ""
             },
             "require": {
@@ -109,7 +109,7 @@
                 "php",
                 "wordpress"
             ],
-            "time": "2017-02-08 20:57:47"
+            "time": "2017-02-10 17:43:15"
         },
         {
             "name": "composer/installers",
@@ -963,16 +963,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7.1",
+            "version": "4.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "6a6a20e568db37fb501fe9deb75ed2a8600d1b30"
+                "reference": "ac7b1792641d1fb61cb2901db292903b31694057"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6a6a20e568db37fb501fe9deb75ed2a8600d1b30",
-                "reference": "6a6a20e568db37fb501fe9deb75ed2a8600d1b30",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ac7b1792641d1fb61cb2901db292903b31694057",
+                "reference": "ac7b1792641d1fb61cb2901db292903b31694057",
                 "shasum": ""
             },
             "require": {
@@ -996,7 +996,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2017-01-11 17:46:47"
+            "time": "2017-01-26 18:32:19"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1819,16 +1819,16 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "2.7.3",
+            "version": "2.8.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "trunk"
+                "reference": "tags/2.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.zip",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.2.8.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1859,7 +1859,7 @@
         },
         {
             "name": "wpackagist-plugin/search-by-algolia-instant-relevant-results",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/search-by-algolia-instant-relevant-results/",
@@ -1868,7 +1868,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/search-by-algolia-instant-relevant-results.zip",
-                "reference": "trunk",
+                "reference": null,
                 "shasum": null
             },
             "require": {
