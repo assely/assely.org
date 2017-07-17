@@ -44,7 +44,7 @@
     "guzzlehttp/guzzle": "^6.2",
     "erusev/parsedown-extra": "^0.7.1",
 
-    "wpackagist-plugin/search-by-algolia-instant-relevant-results": "^1.6.0",
+    "wpackagist-plugin/search-by-algolia-instant-relevant-results": "^2.0.0",
     "wpackagist-plugin/taxonomy-terms-order": "^1.4.0",
     "wpackagist-plugin/wp-migrate-db": "^0.9",
     "wpackagist-plugin/autodescription": "^2.8.0",
