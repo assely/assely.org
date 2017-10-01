@@ -49,16 +49,17 @@
     "wpackagist-plugin/wp-migrate-db": "^0.9",
     "wpackagist-plugin/autodescription": "^2.8.0",
     "wpackagist-plugin/google-sitemap-generator": "^4.0.0",
+    "wpackagist-plugin/w3-total-cache": "0.9.5.4",
 
-    "johnpbloch/wordpress": "4.8"
+    "johnpbloch/wordpress": "4.8.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
   },
   "autoload": {
-      "psr-4": {
-          "App\\": "web/app/themes/assely/app"
-      }
+    "psr-4": {
+      "App\\": "web/app/themes/assely/app"
+    }
   },
   "extra": {
     "installer-paths": {
